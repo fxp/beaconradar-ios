@@ -21,6 +21,38 @@
 		668FBDEE194E21CB00B2DC51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668FBDD0194E21CB00B2DC51 /* UIKit.framework */; };
 		668FBDF6194E21CB00B2DC51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668FBDF4194E21CB00B2DC51 /* InfoPlist.strings */; };
 		668FBDF8194E21CB00B2DC51 /* BeaconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBDF7194E21CB00B2DC51 /* BeaconDemoTests.m */; };
+		668FBE07194E26A900B2DC51 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668FBE06194E26A900B2DC51 /* AVOSCloud.framework */; };
+		668FBE08194E26A900B2DC51 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668FBE06194E26A900B2DC51 /* AVOSCloud.framework */; };
+		668FBE0A194E26D500B2DC51 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668FBE09194E26D500B2DC51 /* SystemConfiguration.framework */; };
+		668FBE0C194E26DB00B2DC51 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668FBE0B194E26DB00B2DC51 /* MobileCoreServices.framework */; };
+		668FBE0E194E26E200B2DC51 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668FBE0D194E26E200B2DC51 /* CoreTelephony.framework */; };
+		668FBE10194E26E900B2DC51 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668FBE0F194E26E900B2DC51 /* CoreLocation.framework */; };
+		668FBE13194E283800B2DC51 /* HAMAVOSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE12194E283800B2DC51 /* HAMAVOSManager.m */; };
+		668FBE14194E283800B2DC51 /* HAMAVOSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE12194E283800B2DC51 /* HAMAVOSManager.m */; };
+		668FBE17194E2B2A00B2DC51 /* HAMBeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE16194E2B2A00B2DC51 /* HAMBeaconManager.m */; };
+		668FBE18194E2B2A00B2DC51 /* HAMBeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE16194E2B2A00B2DC51 /* HAMBeaconManager.m */; };
+		668FBE20194E2E6200B2DC51 /* HAMLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE1B194E2E6200B2DC51 /* HAMLogTool.m */; };
+		668FBE21194E2E6200B2DC51 /* HAMLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE1B194E2E6200B2DC51 /* HAMLogTool.m */; };
+		668FBE22194E2E6200B2DC51 /* HAMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE1D194E2E6200B2DC51 /* HAMTools.m */; };
+		668FBE23194E2E6200B2DC51 /* HAMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE1D194E2E6200B2DC51 /* HAMTools.m */; };
+		668FBE24194E2E6200B2DC51 /* HAMWebTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE1F194E2E6200B2DC51 /* HAMWebTool.m */; };
+		668FBE25194E2E6200B2DC51 /* HAMWebTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE1F194E2E6200B2DC51 /* HAMWebTool.m */; };
+		668FBE29194E2FB000B2DC51 /* HAMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE28194E2FB000B2DC51 /* HAMConstants.m */; };
+		668FBE2A194E2FB000B2DC51 /* HAMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE28194E2FB000B2DC51 /* HAMConstants.m */; };
+		668FBE2F194E34DE00B2DC51 /* HAMBeaconViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE2D194E34DE00B2DC51 /* HAMBeaconViewViewController.m */; };
+		668FBE30194E34DE00B2DC51 /* HAMBeaconViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE2D194E34DE00B2DC51 /* HAMBeaconViewViewController.m */; };
+		668FBE31194E34DE00B2DC51 /* HAMBeaconViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE2E194E34DE00B2DC51 /* HAMBeaconViewViewController.xib */; };
+		668FBE32194E34DE00B2DC51 /* HAMBeaconViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE2E194E34DE00B2DC51 /* HAMBeaconViewViewController.xib */; };
+		668FBE35194E3BCE00B2DC51 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE34194E3BCE00B2DC51 /* Reachability.m */; };
+		668FBE36194E3BCE00B2DC51 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE34194E3BCE00B2DC51 /* Reachability.m */; };
+		668FBE48194EEE1300B2DC51 /* bottom-phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE47194EEE1300B2DC51 /* bottom-phone.png */; };
+		668FBE49194EEE1300B2DC51 /* bottom-phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE47194EEE1300B2DC51 /* bottom-phone.png */; };
+		668FBE4B194EEE1E00B2DC51 /* beacon.png in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE4A194EEE1E00B2DC51 /* beacon.png */; };
+		668FBE4C194EEE1E00B2DC51 /* beacon.png in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE4A194EEE1E00B2DC51 /* beacon.png */; };
+		668FBE6A194F047600B2DC51 /* HAMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE68194F047600B2DC51 /* HAMWebViewController.m */; };
+		668FBE6B194F047600B2DC51 /* HAMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668FBE68194F047600B2DC51 /* HAMWebViewController.m */; };
+		668FBE6C194F047600B2DC51 /* HAMWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE69194F047600B2DC51 /* HAMWebViewController.xib */; };
+		668FBE6D194F047600B2DC51 /* HAMWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668FBE69194F047600B2DC51 /* HAMWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +85,34 @@
 		668FBDF3194E21CB00B2DC51 /* BeaconDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconDemoTests-Info.plist"; sourceTree = "<group>"; };
 		668FBDF5194E21CB00B2DC51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		668FBDF7194E21CB00B2DC51 /* BeaconDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconDemoTests.m; sourceTree = "<group>"; };
+		668FBE06194E26A900B2DC51 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		668FBE09194E26D500B2DC51 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		668FBE0B194E26DB00B2DC51 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		668FBE0D194E26E200B2DC51 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		668FBE0F194E26E900B2DC51 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		668FBE11194E283800B2DC51 /* HAMAVOSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HAMAVOSManager.h; path = managers/HAMAVOSManager.h; sourceTree = "<group>"; };
+		668FBE12194E283800B2DC51 /* HAMAVOSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HAMAVOSManager.m; path = managers/HAMAVOSManager.m; sourceTree = "<group>"; };
+		668FBE15194E2B2A00B2DC51 /* HAMBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HAMBeaconManager.h; path = managers/HAMBeaconManager.h; sourceTree = "<group>"; };
+		668FBE16194E2B2A00B2DC51 /* HAMBeaconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HAMBeaconManager.m; path = managers/HAMBeaconManager.m; sourceTree = "<group>"; };
+		668FBE1A194E2E6200B2DC51 /* HAMLogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMLogTool.h; sourceTree = "<group>"; };
+		668FBE1B194E2E6200B2DC51 /* HAMLogTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMLogTool.m; sourceTree = "<group>"; };
+		668FBE1C194E2E6200B2DC51 /* HAMTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMTools.h; sourceTree = "<group>"; };
+		668FBE1D194E2E6200B2DC51 /* HAMTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMTools.m; sourceTree = "<group>"; };
+		668FBE1E194E2E6200B2DC51 /* HAMWebTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMWebTool.h; sourceTree = "<group>"; };
+		668FBE1F194E2E6200B2DC51 /* HAMWebTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMWebTool.m; sourceTree = "<group>"; };
+		668FBE27194E2FB000B2DC51 /* HAMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HAMConstants.h; path = dataStructure/HAMConstants.h; sourceTree = "<group>"; };
+		668FBE28194E2FB000B2DC51 /* HAMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HAMConstants.m; path = dataStructure/HAMConstants.m; sourceTree = "<group>"; };
+		668FBE2C194E34DE00B2DC51 /* HAMBeaconViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HAMBeaconViewViewController.h; path = views/HAMBeaconViewViewController.h; sourceTree = "<group>"; };
+		668FBE2D194E34DE00B2DC51 /* HAMBeaconViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HAMBeaconViewViewController.m; path = views/HAMBeaconViewViewController.m; sourceTree = "<group>"; };
+		668FBE2E194E34DE00B2DC51 /* HAMBeaconViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HAMBeaconViewViewController.xib; path = views/HAMBeaconViewViewController.xib; sourceTree = "<group>"; };
+		668FBE33194E3BCE00B2DC51 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		668FBE34194E3BCE00B2DC51 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		668FBE47194EEE1300B2DC51 /* bottom-phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom-phone.png"; sourceTree = "<group>"; };
+		668FBE4A194EEE1E00B2DC51 /* beacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beacon.png; sourceTree = "<group>"; };
+		668FBE67194F047600B2DC51 /* HAMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HAMWebViewController.h; path = views/HAMWebViewController.h; sourceTree = "<group>"; };
+		668FBE68194F047600B2DC51 /* HAMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HAMWebViewController.m; path = views/HAMWebViewController.m; sourceTree = "<group>"; };
+		668FBE69194F047600B2DC51 /* HAMWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HAMWebViewController.xib; path = views/HAMWebViewController.xib; sourceTree = "<group>"; };
+		9AB576A61950990400BC2A8F /* UserDataTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDataTapGestureRecognizer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +120,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668FBE10194E26E900B2DC51 /* CoreLocation.framework in Frameworks */,
+				668FBE0E194E26E200B2DC51 /* CoreTelephony.framework in Frameworks */,
+				668FBE0C194E26DB00B2DC51 /* MobileCoreServices.framework in Frameworks */,
+				668FBE0A194E26D500B2DC51 /* SystemConfiguration.framework in Frameworks */,
 				668FBDCF194E21CB00B2DC51 /* CoreGraphics.framework in Frameworks */,
 				668FBDD1194E21CB00B2DC51 /* UIKit.framework in Frameworks */,
 				668FBDCD194E21CB00B2DC51 /* Foundation.framework in Frameworks */,
+				668FBE07194E26A900B2DC51 /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +138,7 @@
 				668FBDEC194E21CB00B2DC51 /* XCTest.framework in Frameworks */,
 				668FBDEE194E21CB00B2DC51 /* UIKit.framework in Frameworks */,
 				668FBDED194E21CB00B2DC51 /* Foundation.framework in Frameworks */,
+				668FBE08194E26A900B2DC51 /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +167,11 @@
 		668FBDCB194E21CB00B2DC51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				668FBE0F194E26E900B2DC51 /* CoreLocation.framework */,
+				668FBE0D194E26E200B2DC51 /* CoreTelephony.framework */,
+				668FBE0B194E26DB00B2DC51 /* MobileCoreServices.framework */,
+				668FBE09194E26D500B2DC51 /* SystemConfiguration.framework */,
+				668FBE06194E26A900B2DC51 /* AVOSCloud.framework */,
 				668FBDCC194E21CB00B2DC51 /* Foundation.framework */,
 				668FBDCE194E21CB00B2DC51 /* CoreGraphics.framework */,
 				668FBDD0194E21CB00B2DC51 /* UIKit.framework */,
@@ -112,11 +183,17 @@
 		668FBDD2194E21CB00B2DC51 /* BeaconDemo */ = {
 			isa = PBXGroup;
 			children = (
+				668FBE4D194EEF8700B2DC51 /* lib */,
+				668FBE2B194E34B700B2DC51 /* views */,
+				668FBE26194E2F9300B2DC51 /* dataStructure */,
+				668FBE19194E2E4600B2DC51 /* utils */,
+				668FBE05194E25AF00B2DC51 /* managers */,
 				668FBDDB194E21CB00B2DC51 /* HAMAppDelegate.h */,
-				668FBDDC194E21CB00B2DC51 /* HAMAppDelegate.m */,
 				668FBDDE194E21CB00B2DC51 /* Main.storyboard */,
-				668FBDE1194E21CB00B2DC51 /* HAMViewController.h */,
+				668FBDDC194E21CB00B2DC51 /* HAMAppDelegate.m */,
 				668FBDE2194E21CB00B2DC51 /* HAMViewController.m */,
+				9AB576A61950990400BC2A8F /* UserDataTapGestureRecognizer.h */,
+				668FBDE1194E21CB00B2DC51 /* HAMViewController.h */,
 				668FBDE4194E21CB00B2DC51 /* Images.xcassets */,
 				668FBDD3194E21CB00B2DC51 /* Supporting Files */,
 			);
@@ -126,6 +203,7 @@
 		668FBDD3194E21CB00B2DC51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				668FBE01194E244300B2DC51 /* resources */,
 				668FBDD4194E21CB00B2DC51 /* BeaconDemo-Info.plist */,
 				668FBDD5194E21CB00B2DC51 /* InfoPlist.strings */,
 				668FBDD8194E21CB00B2DC51 /* main.m */,
@@ -150,6 +228,70 @@
 				668FBDF4194E21CB00B2DC51 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		668FBE01194E244300B2DC51 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				668FBE4A194EEE1E00B2DC51 /* beacon.png */,
+				668FBE47194EEE1300B2DC51 /* bottom-phone.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		668FBE05194E25AF00B2DC51 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				668FBE11194E283800B2DC51 /* HAMAVOSManager.h */,
+				668FBE12194E283800B2DC51 /* HAMAVOSManager.m */,
+				668FBE15194E2B2A00B2DC51 /* HAMBeaconManager.h */,
+				668FBE16194E2B2A00B2DC51 /* HAMBeaconManager.m */,
+			);
+			name = managers;
+			sourceTree = "<group>";
+		};
+		668FBE19194E2E4600B2DC51 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				668FBE33194E3BCE00B2DC51 /* Reachability.h */,
+				668FBE34194E3BCE00B2DC51 /* Reachability.m */,
+				668FBE1A194E2E6200B2DC51 /* HAMLogTool.h */,
+				668FBE1B194E2E6200B2DC51 /* HAMLogTool.m */,
+				668FBE1C194E2E6200B2DC51 /* HAMTools.h */,
+				668FBE1D194E2E6200B2DC51 /* HAMTools.m */,
+				668FBE1E194E2E6200B2DC51 /* HAMWebTool.h */,
+				668FBE1F194E2E6200B2DC51 /* HAMWebTool.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		668FBE26194E2F9300B2DC51 /* dataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				668FBE27194E2FB000B2DC51 /* HAMConstants.h */,
+				668FBE28194E2FB000B2DC51 /* HAMConstants.m */,
+			);
+			name = dataStructure;
+			sourceTree = "<group>";
+		};
+		668FBE2B194E34B700B2DC51 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				668FBE2C194E34DE00B2DC51 /* HAMBeaconViewViewController.h */,
+				668FBE2D194E34DE00B2DC51 /* HAMBeaconViewViewController.m */,
+				668FBE2E194E34DE00B2DC51 /* HAMBeaconViewViewController.xib */,
+				668FBE67194F047600B2DC51 /* HAMWebViewController.h */,
+				668FBE68194F047600B2DC51 /* HAMWebViewController.m */,
+				668FBE69194F047600B2DC51 /* HAMWebViewController.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		668FBE4D194EEF8700B2DC51 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +342,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "MayLight Corp.";
 				TargetAttributes = {
+					668FBDC8194E21CB00B2DC51 = {
+						DevelopmentTeam = XFCDXZK26Z;
+					};
 					668FBDE9194E21CB00B2DC51 = {
 						TestTargetID = 668FBDC8194E21CB00B2DC51;
 					};
@@ -229,9 +374,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668FBE6C194F047600B2DC51 /* HAMWebViewController.xib in Resources */,
 				668FBDE5194E21CB00B2DC51 /* Images.xcassets in Resources */,
+				668FBE48194EEE1300B2DC51 /* bottom-phone.png in Resources */,
 				668FBDD7194E21CB00B2DC51 /* InfoPlist.strings in Resources */,
 				668FBDE0194E21CB00B2DC51 /* Main.storyboard in Resources */,
+				668FBE4B194EEE1E00B2DC51 /* beacon.png in Resources */,
+				668FBE31194E34DE00B2DC51 /* HAMBeaconViewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +388,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668FBE32194E34DE00B2DC51 /* HAMBeaconViewViewController.xib in Resources */,
+				668FBE6D194F047600B2DC51 /* HAMWebViewController.xib in Resources */,
 				668FBDF6194E21CB00B2DC51 /* InfoPlist.strings in Resources */,
+				668FBE49194EEE1300B2DC51 /* bottom-phone.png in Resources */,
+				668FBE4C194EEE1E00B2DC51 /* beacon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +403,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668FBE29194E2FB000B2DC51 /* HAMConstants.m in Sources */,
+				668FBE22194E2E6200B2DC51 /* HAMTools.m in Sources */,
+				668FBE24194E2E6200B2DC51 /* HAMWebTool.m in Sources */,
+				668FBE6A194F047600B2DC51 /* HAMWebViewController.m in Sources */,
+				668FBE35194E3BCE00B2DC51 /* Reachability.m in Sources */,
+				668FBE17194E2B2A00B2DC51 /* HAMBeaconManager.m in Sources */,
 				668FBDD9194E21CB00B2DC51 /* main.m in Sources */,
+				668FBE13194E283800B2DC51 /* HAMAVOSManager.m in Sources */,
+				668FBE2F194E34DE00B2DC51 /* HAMBeaconViewViewController.m in Sources */,
+				668FBE20194E2E6200B2DC51 /* HAMLogTool.m in Sources */,
 				668FBDDD194E21CB00B2DC51 /* HAMAppDelegate.m in Sources */,
 				668FBDE3194E21CB00B2DC51 /* HAMViewController.m in Sources */,
 			);
@@ -260,7 +422,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668FBE30194E34DE00B2DC51 /* HAMBeaconViewViewController.m in Sources */,
 				668FBDF8194E21CB00B2DC51 /* BeaconDemoTests.m in Sources */,
+				668FBE25194E2E6200B2DC51 /* HAMWebTool.m in Sources */,
+				668FBE6B194F047600B2DC51 /* HAMWebViewController.m in Sources */,
+				668FBE23194E2E6200B2DC51 /* HAMTools.m in Sources */,
+				668FBE21194E2E6200B2DC51 /* HAMLogTool.m in Sources */,
+				668FBE2A194E2FB000B2DC51 /* HAMConstants.m in Sources */,
+				668FBE18194E2B2A00B2DC51 /* HAMBeaconManager.m in Sources */,
+				668FBE36194E3BCE00B2DC51 /* Reachability.m in Sources */,
+				668FBE14194E283800B2DC51 /* HAMAVOSManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,10 +548,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
 				INFOPLIST_FILE = "BeaconDemo/BeaconDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +569,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
 				INFOPLIST_FILE = "BeaconDemo/BeaconDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -406,6 +593,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
@@ -428,6 +616,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
@@ -457,6 +646,7 @@
 				668FBDFD194E21CB00B2DC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		668FBDFE194E21CB00B2DC51 /* Build configuration list for PBXNativeTarget "BeaconDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +655,7 @@
 				668FBE00194E21CB00B2DC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

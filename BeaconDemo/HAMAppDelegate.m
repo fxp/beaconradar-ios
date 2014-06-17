@@ -7,12 +7,22 @@
 //
 
 #import "HAMAppDelegate.h"
+#import <AVOSCloud/AVOSCloud.h>
+
+#import "HAMAVOSManager.h"
+#import "HAMBeaconManager.h"
 
 @implementation HAMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //AVOS connection
+    [AVOSCloud setApplicationId:@"3ts8wzcbwxgsxb5g4fymv2fp1yjm5itlzur8qp3bahh820ji" clientKey:@"o1sr0dpvi2mjwjkrmz8jgzxioga4pmzu5upm075t1pgdyg6m"];
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    //start ranging
+    [HAMBeaconManager startRanging];
+    
     return YES;
 }
 							
