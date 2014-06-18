@@ -15,6 +15,7 @@
 @interface HAMBeaconViewViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *beaconLabel;
 @property (weak, nonatomic) NSString *urlForBeacon;
 
 @end
@@ -42,9 +43,10 @@ static const double kHAMBeaconAreaHeight = 398;
     [super didReceiveMemoryWarning];
 }
 
-- (void)showBeacon:(CLBeacon*)beacon urlForBeacon:(NSString*)urlForBeacon{
+- (void)showBeacon:(CLBeacon*)beacon urlForBeacon:(NSString*)urlForBeacon nameForBeacon:(NSString*)nameForBeacon{
     self.view.hidden = NO;
     self.distanceLabel.text = [NSString stringWithFormat:@"%.1lf", beacon.accuracy];
+    self.beaconLabel.text = nameForBeacon;
     self.urlForBeacon = urlForBeacon;
     
     CGRect frame = self.view.frame;

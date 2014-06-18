@@ -103,7 +103,8 @@ static NSArray* beaconViewFrameXArray;
         //show beacon view
         HAMBeaconViewViewController* beaconViewVC = self.beaconViewControllerArray[i];
         NSString* urlForBeacon = [HAMAVOSManager urlOfBeacon:beacon];
-        [beaconViewVC showBeacon:beacon urlForBeacon:urlForBeacon];
+        NSString* nameForBeacon = [HAMAVOSManager nameOfBeacon:beacon];
+        [beaconViewVC showBeacon:beacon urlForBeacon:urlForBeacon nameForBeacon:nameForBeacon];
         
         UserDataTapGestureRecognizer *singleTap = [[UserDataTapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetected:)];
         singleTap.numberOfTapsRequired = 2;

@@ -14,7 +14,7 @@
 {}
 
 - (NSString*)urlForBeacon;
-- (void)showBeacon:(CLBeacon*)beacon urlForBeacon:(NSString*)urlForBeacon;
+- (void)showBeacon:(CLBeacon*)beacon urlForBeacon:(NSString*)urlForBeacon nameForBeacon:(NSString*)nameForBeacon;
 - (void)hide;
 
 @end

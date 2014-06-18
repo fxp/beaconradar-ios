@@ -103,4 +103,14 @@
     return [beaconObject objectForKey:@"url"];
 }
 
++ (NSString*)nameOfBeacon:(CLBeacon*)beacon{
+    if (beacon == nil) {
+        [HAMLogTool warn:@"query range of beacon nil"];
+        return nil;
+    }
+    
+    AVObject* beaconObject = [self queryBeaconAVObjectWithCLBeacon:beacon];
+    return [beaconObject objectForKey:@"name"];
+}
+
 @end

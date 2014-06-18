@@ -26,4 +26,6 @@
 
 + (NSString*)urlOfBeacon:(CLBeacon*)beacon;
 
++ (NSString*)nameOfBeacon:(CLBeacon*)beacon;
+
 @end
