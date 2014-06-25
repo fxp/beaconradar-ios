@@ -63,8 +63,12 @@
     }
     
     AVQuery *query = [AVQuery queryWithClassName:@"Beacon"];
-    [self setCachePolicyOfQuery:query];
-    
+//    [self setCachePolicyOfQuery:query];
+
+    query.cachePolicy = kPFCachePolicyCacheElseNetwork;
+    //设置缓存有效期
+    query.maxCacheAge = 24*3600;
+
     [query whereKey:@"proximityUUID" equalTo:beacon.proximityUUID.UUIDString];
     [query whereKey:@"major" equalTo:beacon.major];
     [query whereKey:@"minor" equalTo:beacon.minor];
@@ -90,6 +94,27 @@
         return -1;
     }
     
+    return [rangeNumber doubleValue];
+}
+
+
++ (double)rangeOutOfBeacon:(CLBeacon*)beacon{
+    if (beacon == nil) {
+        [HAMLogTool warn:@"query range of beacon nil"];
+        return CLProximityUnknown;
+    }
+
+    AVObject* beaconObject = [self queryBeaconAVObjectWithCLBeacon:beacon];
+    if (beaconObject == nil) {
+        return -1;
+    }
+
+    NSNumber* rangeNumber = [beaconObject objectForKey:@"rangeOut"];
+
+    if (rangeNumber == nil) {
+        return -1;
+    }
+
     return [rangeNumber doubleValue];
 }
 

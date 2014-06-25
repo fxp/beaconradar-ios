@@ -24,6 +24,8 @@
 
 + (double)rangeOfBeacon:(CLBeacon*)beacon;
 
++ (double)rangeOutOfBeacon:(CLBeacon*)beacon;
+
 + (NSString*)urlOfBeacon:(CLBeacon*)beacon;
 
 + (NSString*)nameOfBeacon:(CLBeacon*)beacon;
